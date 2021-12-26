@@ -1,1 +1,1 @@
-https://BlackJack95.github.io/rsschool-cv/cv
+https://BlackJack95.github.io/rsschool-cv/
