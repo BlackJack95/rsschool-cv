@@ -1,12 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-</head>
-<body>
-    
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Eugene Gritsenko</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">  
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body class="page-body">
+        <main class="container">
+            <div class="left-side">
+                <img
+                src="img/QD2wkJQEgxk.jpg"
+                width="380"
+                height="500"
+                alt="Photo of Eugene Gritsenko"
+                />
+                <section class="contact">
+                    <h2 class="section-title">Contact</h2>
+                    <ul class="contact__list">
+                        <li class="contact__item">
+                            Phone:<a href="tel:+375295657872">+375 (29) 565-78-72</a>
+                        </li>
+                        <li class="contact__item">
+                            Email:<a href="Eugene.Gr.26@gmail.com">Eugene.Gr.26@gmail.com</a>
+                        </li>
+                        <li class="contact__item">
+                            Discord:<br /><span>Eugene_Gr #3669</span>
+                        </li>
+                </ul>
+                </section>
+                <section class="education">
+                    <h2 class="section-title">Education</h2>
+                    <ul class="education__list">
+                        <li class="education__item">
+                            2012-2016 <br/>Belarus State Economic University,<br/>
+                            Accounting and economics
+                        </li>
+                    </ul>
+                </section>
+            </div>
+            <div class="right-side">
+                <section class="page-title">
+                    <h1 class="main-title">Eugene <br/>Gritsenko</h1>
+                    <p>Front-End developer (beginner)</p>
+                </section>
+                <section class="about-me">
+                    <h2 class="section-title">About me</h2>
+                    <p>
+                        People find me to be an upbeat, self-motivated team player with excellent communication skills.<br/>
+                        I do everything to become a Front-End developer at the moment. <br/>
+                        I am very inspired by the rs-school community and I know that we will reach our goal.
+                    </p>
+                </section>
+                <section class="skills">
+                    <h2 class="section-title">Skills</h2>
+                    <ul class="skills__list">
+                        <li>Economy</li>
+                        <li>HTML/CSS</li>
+                        <li>Basic knowledge of JS</li>
+                        <li>English - approximately B1+.</li>
+                    </ul>
+                </section>
+                <section class="my-strengths">
+                    <h2 class="section-title">My strengths</h2>
+                    <ul class="my-strengths__list">
+                        <li>Responsible</li>
+                        <li>Sociable</li>
+                        <li>Quick learner</li>
+                        <li>Smart ;)</li>
+                    </ul>
+                </section>
+                <section class="code-example">
+                    <h2 class="section-title">Code example</h2>
+                    <pre>
+                        function GopStop(n) {
+                            let array = [];
+                            for (let i = 1; i <= n; i++) {
+                                if( (i % 3 === 0) && (i % 5 === 0) ) {
+                                    array.push("GopStop");
+                                }
+                                else if(i % 3 === 0) {
+                                    array.push("Gop");
+                                }
+                                else if(i % 5 === 0) {
+                                    array.push("Stop");
+                                }
+                                else
+                                    array.push(i);
+                            }
+                            return array;
+                        }
+                    </pre>
+                </section> 
+            </div>
+        </main>
+        <footer class="footer">
+            <a class="footer__github" href="https://github.com/BlackJack95">
+                <img src="img/github-logo_icon-icons.com_73546.svg" width="86" height="32" alt="MyGithub">
+            </a>
+            <p class="footer__year">2022</p>
+            <a class="footer__rsschool" href="https://rs.school/js/">
+                <img src="img/rs_school_js.svg" width="86" height="32" alt="RS School">
+            </a>
+        </footer>
+    </body>
 </html>
